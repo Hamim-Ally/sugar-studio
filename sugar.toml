@@ -1,0 +1,10 @@
+# SugarBuilder Configuration - sugar-shell
+
+project_name = "sugar-studio"
+project_type = "exe"
+compiler = "MSVC"
+platform = "Windows"
+
+source_paths = ["src", "src/commands", "src/core", "src/toolchains"]
+build_path = "build"
+output_path = "bin"
